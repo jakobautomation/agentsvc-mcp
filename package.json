@@ -1,0 +1,19 @@
+{
+  "name": "agentsvc-mcp",
+  "version": "1.0.0",
+  "description": "agentsvc.io MCP Server — 20 pay-per-call utility tools for AI agents via x402 USDC micropayments",
+  "type": "module",
+  "main": "mcp-server.mjs",
+  "scripts": {
+    "start": "node mcp-server.mjs"
+  },
+  "dependencies": {
+    "viem": "^2.0.0",
+    "x402": "^0.4.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["mcp", "x402", "ai-agents", "usdc", "base-mainnet", "micropayments"],
+  "license": "MIT"
+}
